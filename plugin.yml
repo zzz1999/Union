@@ -1,0 +1,20 @@
+name: Union
+api: [1.0.0]
+version: 1.0.0
+author: Him188
+main: xyz.him188.union.UnionMain
+load: POSTWORLD
+
+commands:
+  公会:
+    permission: xyz.him188.union.command
+    usage: /公会 帮助
+    description: 公会指令
+
+permissions:
+  xyz.him188.union.command:
+    default: true
+
+
+depend:
+- Money
