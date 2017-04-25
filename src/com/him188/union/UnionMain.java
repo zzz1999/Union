@@ -495,7 +495,7 @@ public class UnionMain extends PluginBase {
 		return levels.get(Integer.parseInt(list.get(union).get("level").toString()))[0];
 	}
 
-	
+
 	/* API */
 
 	private static UnionMain instance;
